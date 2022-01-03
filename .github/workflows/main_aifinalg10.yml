@@ -60,4 +60,4 @@ jobs:
         with:
           app-name: 'AIfinalG10'
           slot-name: 'Production'
-          publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_C24A5A5CEA49461A9A4405095DE8E164 }}
+          publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_A1D7C279C27A4429903A740E51C6F7A2 }}
