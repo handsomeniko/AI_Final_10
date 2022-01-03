@@ -145,7 +145,7 @@ def handle_text_message(event):
 
 
 def reply_lot_image(lot_class):
-    ngrok_url = 'https://7249-114-34-45-211.ngrok.io'
+    ngrok_url = 'https://aifinalg10.azurewebsites.net'
     print(lot_class)
     if lot_class == 62:
         reply_content = 62
