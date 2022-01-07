@@ -145,7 +145,9 @@ def handle_text_message(event):
 
 
 def reply_lot_image(lot_class):
-    ngrok_url = 'https://ai110110.ncuedu.tw'
+    #ngrok_url = 'https://ai110110.ncuedu.tw'
+    ngrok_url = 'https://ailots.ncuedu.tw'
+
     print(lot_class)
     if lot_class == 62:
         reply_content = 62
