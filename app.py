@@ -77,7 +77,7 @@ def handle_image_message(event):
     #     TextSendMessage(text='數位廟公解籤中!!!施主請稍待'))
     
     # 接圖片辨識模型
-    os.system('python yolov5/detect.py --weights best.pt --source linebot_image --project detect_image --save-txt')
+    os.system('python3 yolov5/detect.py --weights best.pt --source linebot_image --project detect_image --save-txt')
     image_filenames = os.listdir('detect_image')
     exp_floder = image_filenames[0]
     txt_file = os.listdir(f'detect_image/{exp_floder}/labels')
