@@ -199,4 +199,4 @@ def reply_lot_question(lot_class,question_type = None):
 
 # run app
 if __name__ == "__main__":
-    app.run(host='127.0.0.1', port=5566)
+    app.run(host='127.0.0.1', port=5007)
